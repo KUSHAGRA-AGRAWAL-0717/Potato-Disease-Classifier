@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model_path = "./models/1.h5"
+model_path = r"C:\Kabir Projects\Main Projects\PotatoDisease\models\1.h5"
 
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"Model file not found at {model_path}")
